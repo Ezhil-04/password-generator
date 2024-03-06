@@ -39,19 +39,25 @@ body{
     padding: .6rem 1rem 0 0;
 }
 .text2{
-    letter-spacing: 1px;
+
+
+   
     color: rgb(188, 201, 235);
-    font-size:.9rem;
+    font-size:.95rem;
     height: 2.3rem;
-    width: 57%;
+    width: 54.5%;
     background-color: transparent;
-    padding-right: 0px;
+ 
     padding-top: .4rem;
     
   
     border-bottom: 3px  solid;
    
 
+}
+.text2 h2{
+    letter-spacing: 2px;
+    font-stretch: extra-expanded;
 }
 .password{
 
@@ -127,7 +133,7 @@ opacity: 1;
 }
 @media only screen and (max-width:600px) {
     .wrapper{
-        width:23rem;
+        width:21rem;
         height: 16rem;
     }
     .generate button{
@@ -136,5 +142,9 @@ opacity: 1;
     #btnimg{ 
         position: absolute;
    bottom: .2rem;
+    }
+    .text2{
+    width: 67.5%;
+        font-size: .9rem;
     }
 }
