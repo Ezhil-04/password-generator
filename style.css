@@ -34,14 +34,15 @@ body{
 .text1{
     
     color: aliceblue;
-    height: 2.5rem;
+    height: 1.2rem;
     background-color:transparent;
     padding: .6rem 1rem 0 0;
+   
 }
 .text2{
 
 
-   
+   margin-bottom: 1rem;
     color: rgb(188, 201, 235);
     font-size:.95rem;
     height: 2.3rem;
@@ -138,6 +139,9 @@ opacity: 1;
     }
     .generate button{
         font-size: 1.2rem;
+    }
+    .generate{
+        width: 77%;
     }
     #btnimg{ 
         position: absolute;
