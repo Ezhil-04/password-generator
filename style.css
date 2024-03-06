@@ -127,7 +127,7 @@ opacity: 1;
 }
 @media only screen and (max-width:600px) {
     .wrapper{
-        width:25rem;
+        width:23rem;
         height: 16rem;
     }
     .generate button{
